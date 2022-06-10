@@ -1,39 +1,149 @@
-/*Insertion de l'arrière plan 1*/
+@font-face {
+    font-family: 'rajdhani';
+    src: url(../Police/Rajdhani-Medium.ttf);
+}
+
+:root {
+    --yellow-color: #FFFF00;
+    --yellow-light: #f8f184;
+    --blue-color: #19587d;
+    --white-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'rajdhani';
+    font-size: 36px;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'rajdhani';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container .text {
+    margin: auto;
+    padding-top: 300px;
+    text-align: center;
+    width: 600px;
+    font-size: 22px;
+}
+
+.container .titre {
+    margin: 50px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta .btn {
+    text-decoration: none;
+    color: var(--white-color);
+    text-align: center;
+    margin: 15px;
+    background-image: linear-gradient(to right, rgba(237, 222, 191, 0.40), rgba(137, 0, 9, 0.60));
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.cta .btn:hover {
+    background-image: linear-gradient(to right, rgba(237, 222, 191), rgba(137, 0, 9));
+}
+
+#Hero img {
+    margin-top: 150px;
+}
 
 body {
-    background-image: url(/Assets/Illustrations/Bathome1.png);
-    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-family: 'Space-Grotesk';
+    font-weight: 300;
 }
+
+
+/*Insertion de l'arrière plan 1*/
 
 header {
     /* background-color: aqua; */
     /* width: 75%; */
-    margin: 0 102px;
+    margin: 0 auto;
+    width: 80%;
     border: 1px solid #FFFF;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
+
+/*Design de la navigation*/
+
 nav {
     display: flex;
-    width: 100%;
+    align-items: center;
     justify-content: space-between;
+    padding: 20px 0;
 }
 
 ul {
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
-    border: 1px solid #FFFF;
+    list-style: none;
 }
 
-li {
-    margin-left: 50px;
+nav ul a {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'rajdhani';
 }
 
-main {
-    border: 2px solid #FFFF;
+nav ul a:hover {
+    color: var(--yellow-color);
+}
+
+
+/*Design de la partie Hero de l'entete*/
+
+#Hero {
+    background-image: url(../Illustrations/Bathome1.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: aqua;
+}
+
+
+/*Design de la section batman personnage*/
+
+.batman-cinema {
     width: 80%;
-    margin: auto;
+    height: 75%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 2px solid #C4C4C4;
+    border-bottom: none;
+    border-top: none;
+}
+
+#batman-cinema .container .Personnage-bataman1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
