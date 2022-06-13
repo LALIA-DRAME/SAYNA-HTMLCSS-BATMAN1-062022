@@ -19,12 +19,23 @@ h1 {
     font-family: 'rajdhani';
     font-size: 36px;
     font-weight: 400;
+    margin-bottom: 35px;
 }
 
 button {
     font-family: 'rajdhani';
     font-size: 20px;
     font-weight: 400;
+}
+
+main {
+    border: 2px solid #C4C4C4;
+    border-bottom: 0;
+}
+
+footer {
+    border: 2px solid #C4C4C4;
+    border-top: 0;
 }
 
 .container {
@@ -131,19 +142,54 @@ nav ul a:hover {
 
 /*Design de la section batman personnage*/
 
-.batman-cinema {
-    width: 80%;
-    height: 75%;
+#batman-cinema,
+#nemesis,
+#les-allies {
+    width: 85%;
     margin: 0 auto;
     box-sizing: border-box;
-    border: 2px solid #C4C4C4;
-    border-bottom: none;
-    border-top: none;
+    padding-top: 100px;
 }
 
-#batman-cinema .container .Personnage-bataman1 {
-    margin: 0 auto;
+.personnage-head {
+    margin: auto;
+    text-align: justify;
+}
+
+.personnage-head .img1 {
+    margin-bottom: -50px;
+    margin-left: 100px;
+    width: 140px;
+}
+
+.row {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.row .card {
+    margin: 0;
+    margin-top: 80px;
+    text-align: center;
+    width: 30%;
+}
+
+.row .card img {
+    width: 100%;
+}
+
+.personnage-head .img-allies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-allies img {
+    margin-right: -21%;
+    margin-top: -200px;
+}
+
+.personnage-head p {
+    font-size: 22px;
+    margin-bottom: 60px;
 }
