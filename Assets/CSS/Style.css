@@ -29,7 +29,7 @@ button {
 }
 
 main {
-    border: 2px solid #C4C4C4;
+    border: 2px solid rgba(196, 196, 196, 0.7);
     border-bottom: 0;
 }
 
@@ -78,13 +78,15 @@ footer {
     background-image: linear-gradient(to right, rgba(237, 222, 191), rgba(137, 0, 9));
 }
 
-#Hero img {
+#Hero .fleche-part1 {
     margin-top: 150px;
 }
 
 body {
+    background-image: url(../Illustrations/Bathome1.png);
+    background-repeat: no-repeat;
     background-color: black;
-    color: white;
+    color: rgba(255, 255, 255, 0.822);
     font-family: 'Space-Grotesk';
     font-weight: 300;
 }
@@ -97,7 +99,7 @@ header {
     /* width: 75%; */
     margin: 0 auto;
     width: 80%;
-    border: 1px solid #FFFF;
+    border: 1px solid rgba(255, 255, 255, 0.7);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -132,11 +134,9 @@ nav ul a:hover {
 /*Design de la partie Hero de l'entete*/
 
 #Hero {
-    background-image: url(../Illustrations/Bathome1.png);
     height: 800px;
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: aqua;
 }
 
 
@@ -193,4 +193,69 @@ nav ul a:hover {
 .personnage-head p {
     font-size: 22px;
     margin-bottom: 60px;
+}
+
+.justice-league-img {
+    margin-left: -25%;
+}
+
+
+/*Design de la partie multi-media*/
+
+#multimedia .slider-multimedia {
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
+}
+
+#multimedia .slider-image {
+    width: 100%;
+}
+
+#multimedia .slider-content {
+    padding: 15px;
+    background-image: linear-gradient(to right, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+}
+
+#multimedia p {
+    font-size: 13px;
+}
+
+.image-bande-annonce {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: center;
+}
+
+.image-bande-annonce img {
+    width: 100%;
+}
+
+.multi-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.multi-media button {
+    background-color: #FFFFFF00;
+}
+
+.titre-multimedia {
+    text-align: left;
+}
+
+.reseaux-sociaux {
+    position: fixed;
+    top: 45vh;
+    right: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reseaux-sociaux img {
+    margin-bottom: 10px;
 }
