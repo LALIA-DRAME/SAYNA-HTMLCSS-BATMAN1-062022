@@ -215,6 +215,9 @@ nav ul a:hover {
 #multimedia .slider-content {
     padding: 15px;
     background-image: linear-gradient(to right, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+    /* border-radius: 10px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #multimedia p {
@@ -231,6 +234,7 @@ nav ul a:hover {
 
 .image-bande-annonce img {
     width: 100%;
+    margin-bottom: 10%;
 }
 
 .multi-media {
@@ -247,6 +251,10 @@ nav ul a:hover {
     text-align: left;
 }
 
+#multimedia .yellow {
+    color: var(--yellow-color);
+}
+
 .reseaux-sociaux {
     position: fixed;
     top: 45vh;
@@ -258,4 +266,20 @@ nav ul a:hover {
 
 .reseaux-sociaux img {
     margin-bottom: 10px;
+}
+
+
+/*Design de la partie contact formulaire*/
+
+#contact {
+    background-image: linear-gradient(to right, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+}
+
+#contact .form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact .h2 {
+    text-align: center;
 }
