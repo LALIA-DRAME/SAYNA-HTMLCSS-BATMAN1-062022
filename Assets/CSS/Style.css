@@ -273,13 +273,80 @@ nav ul a:hover {
 
 #contact {
     background-image: linear-gradient(to right, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+    padding-bottom: 40px;
 }
 
 #contact .form {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
+    text-align: left;
 }
 
 #contact .h2 {
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
 }
+
+#contact .titre {
+    display: block;
+    margin: 20px 0px;
+}
+
+#contact .form input[type='email'],
+#contact .form textarea,
+#contact .form select,
+#contact .form input[type=text] {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    border-bottom: 2px solid rgba(192, 186, 186, 0.411);
+    background-color: transparent;
+    padding: 10px 0px;
+}
+
+#contact .form p,
+#contact .form select {
+    color: #C4C4C4;
+    margin: 20px 0px;
+}
+
+#contact .form input::placeholder,
+#contact .form textarea {
+    color: #c4c4c4ee;
+}
+
+::placeholder {
+    color: #8d8d87;
+    font-size: 15px;
+}
+
+.btn-group {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form input[type='radio'] {
+    opacity: 0;
+}
+
+.btn-group label {
+    cursor: pointer;
+    border: 2px solid;
+    padding: 10px;
+    border-image: linear-gradient(69deg, #f8f084dc, var(--blue-color));
+    /* border-color: 69deg, #f8f084dc, var(--blue-color); */
+    border-image-slice: 1;
+}
+
+
+/* #contact .form input[type="checkbox"] {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 80%;
+    border-bottom: 2px solid rgba(192, 186, 186, 0.411);
+    background-color: transparent;
+    padding: 10px; */

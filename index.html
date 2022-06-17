@@ -226,7 +226,7 @@
 
         <section id="contact">
             <div class="form">
-                <h2>Prenons contact</h2>
+                <h2 class="h2">Prenons contact</h2>
 
                 <form action="">
                     <label class="titre" for="email">ADRESSE EMAIL</label><br>
@@ -235,20 +235,22 @@
 
                     <label class="titre" for="">NEWSLETTER</label> <br>
 
-                    <p>En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</p>
-                    <input type="checkbox" name="Case à cocher" id="Case à cocher">
+                    <p class="news">
+                        En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :
+                        <input type="checkbox" name="Case à cocher" id="Case à cocher">
+                    </p>
                     <select name="" id="">
                     <option value="">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
-                </select>
+                    </select>
 
                     <div>
-                        <p class="news">Souhaitez-vous recevoir des news</p>
+                        <input type="text" placeholder="Souhaitez-vous recevoir des news ">
                         <div class="btn-group">
                             <input type="radio" id="film">
                             <label for="">des films</label>
-                            <input type=" radio " id="comics ">
+                            <input type="radio" id="comics ">
                             <label for=" ">des comics</label>
-                            <input type="radio " id="tout ">
+                            <input type="radio" id="tout ">
                             <label for=" ">de tout</label>
                         </div>
                         <p class="titre ">MESSAGE</p>
