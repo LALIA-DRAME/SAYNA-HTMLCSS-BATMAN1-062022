@@ -256,7 +256,7 @@
                         <p class="titre ">MESSAGE</p>
                         <textarea name=" " id=" " cols="30 " placeholder=" Laissez un commentaire pour la communauté "></textarea>
                     </div>
-                    <div> <input type="submit " value="CONFIRMER "></div>
+                    <input class="btn-confirmer" type="submit " value="CONFIRMER ">
 
                 </form>
 
@@ -265,39 +265,42 @@
         </section>
 
         <!--La section- citation-->
-        <section>
-            <div>
+        <section id="citation">
+            <div class="container">
                 <div>
-                    <img src="./Assets/Logos/icon_guillemets_1.png " alt=" ">
-                    <div>
+                    <div class="guillemet-open"><img src="./Assets/Logos/icon_guillemets_1.png " alt=" "></div>
+                    <div class="citation-carte">
                         <div>
-                            <p>« La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles. »</p>
-                            <div>The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
+                            <p class="citation-texte">« La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles. »</p>
+                            <div class="citation-auteur">The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
                             </div>
+
                         </div>
+
                     </div>
                 </div>
-                <div><img src="./Assets/Logos/icon_guillemets_2.png " alt=" "></DIv>
+                <div class="guillemet-close"><img src="./Assets/Logos/icon_guillemets_2.png " alt=" "></DIv>
             </div>
         </section>
 
     </main>
+    <!--la section footer-->
 
-    <footer class="container ">
+    <footer class="container">
         <div>
-            <div>
-                <img src="./Assets/Logos/icon_WB.png " alt=" ">
-                <P>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</P>
+            <div class="text-footer">
+                <img src="./Assets/Logos/icon_WB.png " alt=" "> Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves
             </div>
-            <div>
-                <a href=" ">
+            <div class="social-footer">
+                <a href="#" class="social-item">
                     <img src="./Assets/Logos/logo_sayna_white.png " alt=" ">
                     <img src="./Assets/Logos/icon_x.png " alt=" ">
                     <img src="./Assets/Logos/icon_DC.png " alt=" ">
-                    <a href=" "><img src="./Assets/Logos/icon_facebook.png " alt=" "></a>
-                    <a href=" "><img src="./Assets/Logos/icon_ig.png " alt=" "></a>
-                    <a href=" "><img src="./Assets/Logos/icon_tw.png " alt=" "></a>
                 </a>
+                <a class="social-item" href=" "><img src="./Assets/Logos/icon_facebook.png " alt=" "></a>
+                <a class="social-item" href=" "><img src="./Assets/Logos/icon_ig.png " alt=" "></a>
+                <a class="social-item" href=" "><img src="./Assets/Logos/icon_tw.png " alt=" "></a>
+
             </div>
         </div>
     </footer>

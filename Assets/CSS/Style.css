@@ -341,9 +341,60 @@ nav ul a:hover {
     border-image-slice: 1;
 }
 
-#contact .form input[type='submit'] {
+.btn-confirmer {
     text-align: center;
-    margin-top: 40px;
-    display: inline;
-    padding: 15px 0;
+    margin: 40px auto;
+    padding: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(60deg, #eddebf, #890008);
+    border: none;
+}
+
+
+/**la section citation */
+
+#citation {
+    margin: 90px;
+}
+
+#citation .citation-carte {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#citation .citation-auteur {
+    padding-top: 40px;
+    font-size: 14px;
+    font-family: 'rajdhani';
+}
+
+#citation .guillemet-open {
+    float: left;
+}
+
+#citation .guillemet-close {
+    float: right;
+}
+
+
+/*Design de footer*/
+
+footer {
+    margin-top: 100px;
+}
+
+footer.text-footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 50px;
+}
+
+footer .social-footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer .social-item {
+    padding: 15px;
 }
